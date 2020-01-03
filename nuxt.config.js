@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Sakura',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,13 +23,15 @@ export default {
   ** Global CSS
   */
   css: [
-    {src:'swiper/dist/css/swiper.css'}
+    {src:'swiper/dist/css/swiper.css'},
+    {src:'~/assets/css/normalize.css'},
+    {src:'~/assets/css/reset.css'}
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: "~/plugins/vue-awesome-swiper.js", ssr: false }
+    { src: "~/plugins/vue-awesome-swiper.js", ssr: false },
   ],
   /*
   ** Nuxt.js dev-modules
