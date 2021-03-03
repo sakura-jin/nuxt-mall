@@ -20,7 +20,7 @@
     "coffeescript": "^2.5.0",
     "node-sass": "^4.13.0",
     "postcss-px-to-viewport": "^1.1.1",
-    "pug": "^2.0.3",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.0"
   },
